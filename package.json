@@ -3,6 +3,10 @@
     "displayName": "Regions With Colors",
     "description": "Colorizes C# regions",
     "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RiccardoArgiolas/vscode-extension-regions-with-colors"
+    },
     "engines": {
         "vscode": "^1.29.0"
     },
