@@ -2,7 +2,7 @@
     "name": "regions-with-colors",
     "displayName": "Regions With Colors",
     "description": "Colorizes C# regions",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.29.0"
     },
