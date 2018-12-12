@@ -80,13 +80,9 @@ export function activate(context: vscode.ExtensionContext)
 		let regionColor: string;
 		let regionBox: boolean;
 
-		//read color and overwrite the default value (if it is present)
-		//not sure if the "if"s are needed
-		if(configuration && configuration.color)
-			regionColor = configuration.color;
-
-		if(configuration && configuration.box)
-			regionBox = configuration.box;
+		//read configurations
+		regionColor = configuration.get("color", "rgba(26, 188, 156, 0.05)");
+		regionBox = configuration.get("box", false);
 
 		//dispose current decorations (this ensures that we don't apply a new decoration while the old one is still there)
 		regionDecoration.dispose();
