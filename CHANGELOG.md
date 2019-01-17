@@ -1,8 +1,9 @@
 ## Release Notes
 
-### 1.0.2
+### 1.0.3
 
 Added preview image
+Small fix
 
 ### 1.0.0
 

@@ -2,7 +2,7 @@
     "name": "regions-with-colors",
     "displayName": "Regions With Colors",
     "description": "Colorizes C# regions",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "argiolasriccardo90",
     "repository": {
         "type": "git",
@@ -31,14 +31,6 @@
                     "type": "boolean",
                     "default": false,
                     "description": "Controls whether or not a box around the terms #region and #endregion should be displayed"
-                },
-                "coloredRegions.regionColors": {
-                    "type": "object",
-                    "default": {
-                        "MyRegionColor": "rgba(26, 188, 156, 0.05)"
-                    },
-                    "description": "Color that will be used by window",
-                    "scope": "window"
                 }
             } 
         }
